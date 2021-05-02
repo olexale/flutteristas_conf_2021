@@ -4,6 +4,7 @@ import 'package:space_launches/routes/router.gr.dart';
 
 @module
 abstract class InjectableModule {
+  @lazySingleton
   Dio get dio => Dio();
 
   @dev

@@ -182,7 +182,7 @@ class Error extends StatelessWidget {
         padding: const EdgeInsets.all(8.0),
         child: Center(
           child: Text(
-            '💔${error is Exception ? '\n$error' : ''}',
+            '💔\nSomething went wrong',
             textAlign: TextAlign.center,
           ),
         ),

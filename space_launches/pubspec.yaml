@@ -26,6 +26,8 @@ dev_dependencies:
   retrofit_generator: ^2.0.0-beta2
   injectable_generator: ^1.2.2
   auto_route_generator: ^1.0.2
+  bdd_widget_test: ^1.0.1
+  mocktail_image_network: ^0.1.0
 
 flutter:
   uses-material-design: true
